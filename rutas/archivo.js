@@ -2,8 +2,9 @@ var express =require('express');
 
 var app = express();
 
-const path = require('path');
-const fs = require('fs');
+var path = require('path');
+var fs = require('fs');
+
 //rutas
 app.get('/:tipo/:img',(req,res,next)=>{
 

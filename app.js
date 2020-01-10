@@ -29,9 +29,9 @@ mongoose.connection.openUri('mongodb://localhost:27017/hospitalDB',(err,res)=>{
 });
 
 //server index config
-var serveIndex = require('serve-index');
-app.use(express.static(__dirname + '/'))
-app.use('/uploads', serveIndex(__dirname + '/uploads'));
+// var serveIndex = require('serve-index');
+// app.use(express.static(__dirname + '/'))
+// app.use('/uploads', serveIndex(__dirname + '/uploads'));
 
 //rutas
 
